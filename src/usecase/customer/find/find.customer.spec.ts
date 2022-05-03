@@ -47,7 +47,7 @@ describe("Unit Test find customer usecase", () => {
     const customerRepository = MockRepository();
     customerRepository.find.mockImplementation(() => {
       throw new Error("Customer not found");
-    })
+    });
     const usecase = new FindCustomerUseCase(customerRepository);
 
     const input: InputFindCustomerDto = {

@@ -15,3 +15,5 @@ Nesse desafio você deverá:
 
 ### Solução
 - Começo criando o dto /src/usecase/product/find/find.product.dto.ts
+- Crio o teste de unidade, o find.product.usecase.ts e executo o teste.
+- Crio o teste de integração do find e testo.
